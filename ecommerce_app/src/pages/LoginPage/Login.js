@@ -10,7 +10,7 @@ export default function Login() {
     const handleSubmit = () => {
         alert("Login Successfully..!!")
     }
-    
+
     const formik = useFormik({
         initialValues: {
             email: "",
@@ -70,4 +70,5 @@ export default function Login() {
             </div>
         </div>
     );
+    
 };
