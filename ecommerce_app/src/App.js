@@ -10,7 +10,6 @@ import store from "./store/store";
 import { Provider } from "react-redux";
 import Navbar from './components/Navbar/Navbar';
 
-
 function App() {
   return (
     <div className="App">

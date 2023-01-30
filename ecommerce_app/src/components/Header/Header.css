@@ -1,6 +1,6 @@
 .header {
-  background: rgb(23, 23, 23);
-  background: linear-gradient(180deg, rgb(17, 17, 18) 0%, rgb(19, 19, 19) 100%);
+  background: rgb(249, 78, 48);
+  background: linear-gradient(180deg, rgb(249, 78, 48) 0%, rgb(255, 100, 51) 100%);
 }
 .header .header-cnt-top {
   border-bottom: 1px solid #ffb733;

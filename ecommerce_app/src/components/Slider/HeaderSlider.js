@@ -28,6 +28,18 @@ const HeaderSlider = () => {
             <div className='slider-item'>
               <img src = {sliderImgs[1]} alt = "" />
             </div>
+            {/* <div className='slider-item-1'>
+              <img src = {sliderImgs[2]} alt = "" />
+            </div>
+            <div className='slider-item-1'>
+              <img src = {sliderImgs[3]} alt = "" />
+            </div>
+            <div className='slider-item-1'>
+              <img src = {sliderImgs[4]} alt = "" />
+            </div>
+            <div className='slider-item-1'>
+              <img src = {sliderImgs[5]} alt = "" />
+            </div> */}
           </Slider>
         </div>
       </div>

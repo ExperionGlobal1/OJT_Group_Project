@@ -3,13 +3,7 @@ import "./Header.css";
 import { Link } from 'react-router-dom';
 
 const Header = () => {
-  const handleClick = () => {
-    sessionStorage.clear();
-    // window.location.reload('/landingpage')
-  }
-
  
-
   return (
 
     <header className='header text-white'>
@@ -21,7 +15,7 @@ const Header = () => {
               <ul className='top-links flex align-center'>
                 <li className='fw-7' style={{ marginTop: '-30px', marginRight: '20px' }}>
                   <Link to="/landingpage">
-                    <span className='top-link-itm-txt' onClick={handleClick}><strong>Logout</strong></span>
+                    <span className='top-link-itm-txt'><strong>Logout</strong></span>
                   </Link>
                 </li>
               </ul>
