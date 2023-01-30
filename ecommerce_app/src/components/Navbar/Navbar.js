@@ -58,7 +58,7 @@ export default function Navbar(props) {
           <ul className='navbar-nav flex align-center fs-12 fw-4 font-manrope' style={{ color: 'white' }}>
             {
               // taking only first 12 categories
-              categories.slice(0, 0).map((category, idx) => (
+              categories.slice(0, 10).map((category, idx) => (
                 <li className='nav-item no-wrap' key={idx}>
                   <Link to={`category/${category}`} className='nav-link text-capitalize'>{category.replace("-", " ")}</Link>
                 </li>
