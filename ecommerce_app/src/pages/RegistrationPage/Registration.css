@@ -1,0 +1,51 @@
+.background{
+  background-image: linear-gradient(to top, rgba(232, 237, 239, 0.945), rgb(233, 239, 241));
+  height:100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.crdr{
+  border: none;
+  width:45rem;
+  /* height: 60vh;  */
+}
+
+.crdbr{
+  /* background-color: rgb(165, 66, 39); */
+  color:black;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.crdfr{
+  /* background-color:rgb(152, 149, 164); */
+  height: 15vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  
+}
+.btr:hover{
+  background-color: aqua;
+  background-color: aquamarine;
+  background-color: yellow;
+  background-color: red;
+  background-color: orange;
+}
+.btr{
+  width: 100px;
+  height: 40px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  background-color: green;
+  text-align: center;
+  border-radius: 20px;
+  
+}
