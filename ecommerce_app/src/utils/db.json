@@ -1,0 +1,61 @@
+{
+  "customer": [
+    {
+      "id": "raj",
+      "name": "rajksaiij",
+      "email": "admin@gmail.com",
+      "phoneNo": "07979841237",
+      "password": "12345678",
+      "cpassword": "12345678"
+    },
+    {
+      "id": "raj123",
+      "name": "qwersdthfgyujk",
+      "email": "user123@gmail.com",
+      "phoneNo": "07979841237",
+      "password": "12345678",
+      "cpassword": "12345678"
+    },
+    {
+      "id": "kishore",
+      "name": "raj",
+      "email": "raj1232@gmail.com",
+      "phoneNo": "12345678",
+      "password": "12345678",
+      "cpassword": "12345678",
+      "address": "Heera Cyber Views,Infopark Rd, Kakkanad, Edachira, Kochi, Kerala 682030"
+    },
+    {
+      "id": "arya",
+      "name": "arya ",
+      "email": "user123@gmail.com",
+      "phoneNo": "123456789",
+      "password": "12345678",
+      "cpassword": ""
+    },
+    {
+      "id": "sujit",
+      "name": "raj",
+      "email": "raj1232@gmail.com",
+      "phoneNo": "234599",
+      "password": "123456789",
+      "cpassword": ""
+    },
+    {
+      "id": "yadav",
+      "name": "raj",
+      "email": "raj1232@gmail.com",
+      "phoneNo": "2345768909",
+      "password": "987654321",
+      "cpassword": "987654321"
+    },
+    {
+      "id": "kiran",
+      "name": "kiran",
+      "email": "kiran@gmail.com",
+      "phoneNo": "2345768909",
+      "password": "12345678",
+      "cpassword": "12345678"
+    }
+  ]
+}
