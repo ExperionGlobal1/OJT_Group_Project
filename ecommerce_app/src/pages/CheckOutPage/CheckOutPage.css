@@ -1,137 +1,174 @@
-.checkoutt {
-    display: flex;
-    text-align: left;
-    justify-content: space-between;
+/* .text-center {
+    margin-top: 20px;
+} */
+
+.checkoutt-page {
+   display: flex;
+   text-align: left;
+   justify-content: space-between;
+   padding-left: 55px;
 }
 
-.form-groups {
-    margin-top: 20px;
+.form-groups-check {
+   margin-top: 15px;
 }
-.form-groups input {
-   height: 35px;
-   width: 400px;
+
+.form-groups-check input {
+   border: 1px solid rgb(172, 169, 169);
+  height: 28px;
+  width: 400px;
 }
 .address input{
-    width: 400px;
-    height: 140px;
+   border: 1px solid rgb(172, 169, 169);
+   width: 400px;
+   height: 110px;
 }
 .details button {
+  /* border: 1px; */
+  
+  border-radius: 15px;
+  background-color: rgb(95, 94, 94);
+  padding: 1.2rem;
+  margin-bottom: auto;
+  margin: 1rem 30%;
+  height: auto;
+  width: 180px;
+}
+
+.address label {
+   font-size: 26px;
+   display: inline-block;
+   text-align: left;
+   width: 200px;
+}
+.form-groups-check label {
+   display: inline-block;
+   text-align: left;
+   width: 200px;
+   font-size: 26px;
+}
+
+.side-data {
+   display: flex;
+}
+
+.pincd input{
+   height: 30px;
+   width: 150px;
+   border: 1px solid rgb(172, 169, 169);
+}
+
+
+.pincd label {
+   font-size: 26px;
+   display: inline-block;
+   text-align: left;
+   width: 200px;
+}
+
+.state select {
+
+   width: 150px;
+   height: 30px;
+   border: 1px solid black;
+
+}
+
+.state label {
+   font-size: 26px;
+   display: inline-block;
+   text-align: right;
+   width: 100px; 
+}
+
+.data-side {
+   display: flex;
+}
+
+.payment {
+   display: flex;
+}
+
+.payment label {
+   display: inline-block;
+   text-align: right;
+   width: 100px; 
+}
+
+.payment input {
+  
+   margin-left: 1rem;
+   height: 2rem;
+   width: 2rem;
+}
+
+
+
+.final-submit button {
    border: 1px;
    box-shadow: 0 1px 5px grey;
    border-radius: 15px;
    background-color: rgb(15, 150, 48);
    padding: 1.5rem;
-   margin: 1rem 50%;
-   width: 150px;
+   margin: 1rem 75%;
+}
+.checkoutt button:hover {
+   background-color: rgb(53, 196, 89);
+
+
+}
+.box{
+  border: 6px solid gray;
+  display:inline-block;
+  /* box-shadow: 8px 8px rgb(173, 171, 171); */
+  /* width: 30%; */
+  margin: 2rem 0 6rem 18rem;
+  
 }
 
-.address label {
-    display: inline-block;
-    text-align: left;
-    width: 200px;
-}
-.form-groups label {
-    display: inline-block;
-    text-align: left;
-    width: 200px;
- }
 
- .side-data {
-    display: flex;
- }
-
- .pincode input{
-    height: 35px;
-    width: 150px;
- }
-
-
- .pincode label {
-    display: inline-block;
-    text-align: left;
-    width: 200px;
- }
-
- .state select {
-    width: 150px;
-    height: 35px;
-    border: 1px solid black;
-
- }
-
- .state label {
-    display: inline-block;
-    text-align: right;
-    width: 100px;
- }
-
- .data-side {
-    display: flex;
- }
-
- .payment {
-    display: flex;
- }
-
- .payment label {
-    display: inline-block;
-    text-align: right;
-    width: 100px;
- }
-
- .payment input {
-    margin-left: 1rem;
-    height: 2rem;
-    width: 2rem;
- }
-
- 
-
- .final-submit button {
-    border: 1px;
-    box-shadow: 0 1px 5px grey;
-    border-radius: 15px;
-    background-color: rgb(15, 150, 48);
-    padding: 1.5rem;
-    margin: 1rem 75%;
- }
- .checkoutt button:hover {
-    background-color: rgb(53, 196, 89);
-
-
- }
-
- #lab12 {
-    margin: 0 2rem;
- }
-
- .checkout-body {
-    margin: 2rem 5rem;
- }
-
-.form-groups input::-webkit-outer-spin-button {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    margin: 0;
+#lab12 {
+   margin: 0 2rem;
 }
 
-.form-groups input::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    margin: 0;
-}
-.pincode input::-webkit-outer-spin-button {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    margin: 0;
+.checkout-body {
+   margin: 2rem 6rem;
 }
 
-.pincode input::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    margin: 0;
+.form-groups-check input::-webkit-outer-spin-button {
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;
+   margin: 0; 
 }
+
+.form-groups-check input::-webkit-inner-spin-button {
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;
+   margin: 0; 
+}
+.pincd input::-webkit-outer-spin-button {
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;
+   margin: 0; 
+}
+
+.pincd input::-webkit-inner-spin-button {
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;
+   margin: 0; 
+}
+
+.cart-one {
+  margin:1rem 3rem;
+  width:   320px;
+  height: 10px;
+}
+
+/* .checkoutt
+{
+   background-color: rgb(242, 248, 248);
+} */
