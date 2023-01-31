@@ -18,7 +18,7 @@ const CartPage = () => {
         <div className='empty-cart flex justify-center align-center flex-column font-manrope'>
           <img src={shopping_cart} alt="" />
           <span className='fw-6 fs-15 text-gray'>Your shopping cart is empty.</span>
-          <Link to="/" className='shopping-btn bg-orange text-white fw-5'>Go shopping Now</Link>
+          <Link to="/home" className='shopping-btn bg-orange text-white fw-5'>Go shopping Now</Link>
         </div>
       </div>
     )

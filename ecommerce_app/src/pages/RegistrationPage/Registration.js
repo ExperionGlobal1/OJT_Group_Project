@@ -22,23 +22,23 @@ const Component2 = () => {
             id: Yup.string()
                 .min(2, "must be atleast 2 characters")
                 .max(10, "must be less than 10 characters ")
-                .required("Username cannot be null"),
+                .required("Username cann't be empty "),
 
 
             name: Yup.string()
-                .min(3, "Must be at least 3 characters")
-                .max(15, "Must be 15 characters or less")
-                .required(message.required),
+                // .min(3, "Must be at least 3 characters")
+                // .max(15, "Must be 15 characters or less")
+                .required('Fullname is required'),
 
 
             password: Yup.string()
                 .min(8, "Must be atleast 8 characters")
-                .required("password is required"),
+                .required("Password is required"),
 
 
             email: Yup.string()
                 .email(message.email)
-                .required("Email is Required"),
+                .required("Email is required"),
 
 
             phoneNo: Yup.string()
@@ -46,7 +46,7 @@ const Component2 = () => {
                     /^((\\+[1-9]{1,4}[ \\-]*)|(\\([0-9]{2,3}\\)[ \\-]*)|([0-9]{2,4})[ \\-]*)*?[0-9]{3,4}?[ \\-]*[0-9]{3,4}?$/,
                     "Not a valid phone number"
                 )
-                .required("Phone No. is Required"),
+                .required("Phone no.is required"),
 
             cpassword: Yup.string()
                 .oneOf([Yup.ref('password'), null], 'Passwords must match')
@@ -122,7 +122,7 @@ const Component2 = () => {
                     </div>
                     <div className="card-footer crdfr">
                         <button type="submit" className="btn btn-primary btr">Submit</button>
-                        <button className="btn btn-primary btr"><Link to={'/login'} >Close</Link></button>
+                        <button className="btn btn-primary btr"><Link to={'/login'} >Back </Link></button>
                     </div>
                 </form >
             </div >

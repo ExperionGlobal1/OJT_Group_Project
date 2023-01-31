@@ -14,7 +14,7 @@ const Header = () => {
             <div className='header-cnt-top-r'>
               <ul className='top-links flex align-center'>
                 <li className='fw-7' style={{ marginTop: '-30px', marginRight: '20px' }}>
-                  <Link to="/landingpage">
+                  <Link to="/">
                     <span className='top-link-itm-txt'><strong>Logout</strong></span>
                   </Link>
                 </li>

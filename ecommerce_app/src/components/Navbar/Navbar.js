@@ -32,7 +32,7 @@ export default function Navbar(props) {
           <button type="button" className='sidebar-show-btn text-black' onClick={() => dispatch(setSidebarOn())}>
             <i className='fas fa-bars'></i>
           </button>
-          <Link to="/" className='navbar-brand flex align-center'>
+          <Link to="/home" className='navbar-brand flex align-center'>
             <span className='navbar-brand-ico'>
               <i className='fa-solid fa-bag-shopping' style={{ color: "white" }}></i>
             </span>
