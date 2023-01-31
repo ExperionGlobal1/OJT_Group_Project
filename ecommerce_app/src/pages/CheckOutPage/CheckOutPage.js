@@ -17,7 +17,7 @@ export default function CheckOutPage() {
     const [isDisabled, setDisabled] = useState(false);
 
     const clickHandleSubmit = () => {
-        alert("Completed Successfully..!!")
+        alert("Pay to confirm your order..!!")
         nav('/payment')
 
     }

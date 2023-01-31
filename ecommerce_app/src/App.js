@@ -19,9 +19,9 @@ function App() {
           <Sidebar />
           <Routes>
             {/* home page route */}
-            <Route path="/" element={<Home />} />
+            <Route path="/" element={<LandingPage />} />
 
-            <Route path='/landingpage' element={<LandingPage />} />
+            <Route path='/home' element={< Home/>} />
 
             <Route path="/registration" element={<Registration />} />
 

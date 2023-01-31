@@ -62,19 +62,21 @@ const Product = ({ product }) => {
 
       {/* button */}
       <div className='btns'>
-        <button type="button" className='add-to-cart-btn btn'>
-          <span className='btn-text' onClick={() => { addToCartHandler(product) }}>addTo</span>
+        <button type="button" className='add-to-cart-btn btn' onClick={() => { addToCartHandler(product) }}>
+          <span className='btn-text' >addTo</span>
           <i className='fas fa-shopping-cart'></i>
         </button>
 
-        <button type="button" className='buy-now btn mx-3'>
-          <span className='btn-text'> <Link to={`/product/${product?.id}`} key={product?.id}>Details </Link></span>
-        </button>
+        <Link to={`/product/${product?.id}`} key={product?.id}>
+          <button type="button" className='buy-now btn mx-3'>
+            <span className='btn-text'> Details </span>
+          </button>
+        </Link>
 
       </div>
       {cartMessageStatus && <CartMessage />}
     </div>
-    
+
 
   )
 }

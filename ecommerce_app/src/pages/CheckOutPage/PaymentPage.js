@@ -29,7 +29,7 @@ const CheckOutPage = () => {
         carts.map((cart) => {
             dispatch(removeFromCart(cart?.id))
         })
-        alert("Payment Done..!!")
+        alert("Order confirmed..!!")
         nav('/')
     }
     const handleDisable = () => {
