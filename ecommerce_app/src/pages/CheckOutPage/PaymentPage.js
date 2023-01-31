@@ -14,15 +14,10 @@ const CheckOutPage = () => {
     const [cardDetails, setCardDetails] = useState(false);
     const [upi, setUpiDetails] = useState(false);
     const [net, setNetDetails] = useState(false);
-    // const [message, setMessage] = useState();
-    // const [error, setError] = useState(false);
-    const [isDisabled, setDisabled] = useState(false);
-    
+    const [setDisabled] = useState(false);
     const carts = useSelector(getAllCarts);
     const { itemsCount, totalAmount } = useSelector((state) => state.cart);
     const dispatch = useDispatch();
-    
-
     const nav = useNavigate();
 
     const clickHandleSubmit = () => {

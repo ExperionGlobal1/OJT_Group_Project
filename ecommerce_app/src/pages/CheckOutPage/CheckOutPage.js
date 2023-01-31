@@ -3,16 +3,11 @@ import { formatPrice } from '../../utils/helpers';
 import { getAllCarts } from '../../store/cartSlice';
 import { useSelector } from 'react-redux';
 import { useState } from "react";
-import { Link ,useNavigate} from "react-router-dom";
+import {useNavigate} from "react-router-dom";
 import Header from "../../components/Header/Header";
 
 
 export default function CheckOutPage() {
-    // const [cardDetails, setCardDetails] = useState(false);
-    // const [upi, setUpiDetails] = useState(false);
-    // const [net, setNetDetails] = useState(false);
-    // const [message, setMessage] = useState();
-    // const [error, setError] = useState(false);
     const nav =useNavigate();
     const [isDisabled, setDisabled] = useState(false);
 
@@ -75,11 +70,8 @@ export default function CheckOutPage() {
                                     </select>
                                 </div>
                             </div>
-
-                            {/* <Link to="/payment"> */}
                                 <button className="btn btn-default bttn-proceed" style={{marginTop:"50px",marginLeft:"280px"}} >Proceed to Pay</button>
-                            {/* </Link> */}
-
+                    
                         </div>
                         <div className="box">
                             {
@@ -100,7 +92,6 @@ export default function CheckOutPage() {
                                 }
                                 )
                             }
-
                             <div className='cart-cbody bg-white checkout-body'>
                                 <div className='total-txt flex align-center justify-end'>
                                     <div className='font-manrope fw-5'>Total ({itemsCount}) items: </div>
@@ -108,13 +99,8 @@ export default function CheckOutPage() {
                                 </div>
                             </div>
                         </div>
-
-
                     </div>
-
-
                 </form>
-
             </div>
         </>
 
