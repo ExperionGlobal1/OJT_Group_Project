@@ -24,7 +24,7 @@ function Login() {
                 if (resp.password === password) {
                     alert('sucessfully login');
                     sessionStorage.setItem('username', username);
-                    navgate('/')
+                    navgate('/home')
                 }
                 else {
                     alert("enter valid password")

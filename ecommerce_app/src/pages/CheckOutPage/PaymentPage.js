@@ -30,7 +30,7 @@ const CheckOutPage = () => {
             dispatch(removeFromCart(cart?.id))
         })
         alert("Order confirmed..!!")
-        nav('/')
+        nav('/home')
     }
     const handleDisable = () => {
         console.log('Your button was clicked and is now disabled');

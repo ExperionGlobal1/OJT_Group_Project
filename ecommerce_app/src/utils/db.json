@@ -56,6 +56,14 @@
       "phoneNo": "2345768909",
       "password": "12345678",
       "cpassword": "12345678"
+    },
+    {
+      "id": "sachin",
+      "name": "sachin kumar",
+      "email": "sachin@gmail.com",
+      "phoneNo": "987654321",
+      "password": "123456789",
+      "cpassword": "123456789"
     }
   ]
 }
